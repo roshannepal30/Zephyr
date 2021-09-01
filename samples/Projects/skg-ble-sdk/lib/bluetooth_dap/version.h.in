@@ -1,0 +1,11 @@
+#ifndef _SDK_VERSION_H_
+#define _SDK_VERSION_H_
+
+/* @templates@ values come from cmake/version.cmake */
+#define SDK_VERSION_MAJOR   @SDK_VERSION_MAJOR@
+#define SDK_VERSION_MINOR   @SDK_VERSION_MINOR@
+#define SDK_PATCHLEVEL      @SDK_VERSION_PATCH@
+#define SDK_VERSION_STRING  @SDK_VERSION_STRING@
+#define SDK_VERSION_NUMBER  @SDK_VERSION_NUMBER@
+
+#endif /* _SDK_VERSION_H_ */
